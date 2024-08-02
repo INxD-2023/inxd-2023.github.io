@@ -5,7 +5,6 @@ import {html} from "https://cdn.jsdelivr.net/npm/htl@0.3.1/+esm"
 
 const url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxK7R3RHZ57U4APbHEt7CvjrJxCYX4VFoaCZimbrjTgVq0cUfvmp1XNMG1LQLXJlvD2eoASIQ9hNoM/pub?gid=1985818293&single=true&output=csv"
 
-
 function card(data) {
     return html.fragment`
         <div class="project-card">
