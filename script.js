@@ -9,7 +9,7 @@ const url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxK7R3RHZ57U4APbHE
 function card(data) {
     return html.fragment`
         <div class="project-card">
-            <img src="${data.imageLink}" alt="">
+            <img src="${data.projectImage}" alt="">
             <div class="details">
                 <p>${data.name}</p>
                 <h3>${data.title}</h3>
