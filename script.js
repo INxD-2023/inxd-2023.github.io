@@ -3,7 +3,7 @@
 
 import {html} from "https://cdn.jsdelivr.net/npm/htl@0.3.1/+esm" 
 
-const url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSxK7R3RHZ57U4APbHEt7CvjrJxCYX4VFoaCZimbrjTgVq0cUfvmp1XNMG1LQLXJlvD2eoASIQ9hNoM/pub?gid=1985818293&single=true&output=csv"
+const url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTs8FZgvl_WOSxgIOWEHAqlflIeW8P9-xB6Bi0QSfpzIIgQDKCiZMWiJmBA1zArqCryOi0YmEo7l8bY/pub?gid=0&single=true&output=csv"
 
 function card(data) {
     return html.fragment`
